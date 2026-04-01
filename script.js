@@ -9,6 +9,7 @@ function zeigeLebenslauf() {
             Schulische Ausbildung anzeigen
         </button>
     `;
+}
 
 function zeigeSchule() {
 	document.getElementById("extraButton").innerHTML = `
