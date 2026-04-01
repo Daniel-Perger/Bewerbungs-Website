@@ -13,6 +13,14 @@ button {
     cursor: pointer;
 }
 
+.hidden {
+    display: none;
+}
+
 .left-text {
-	text-align: left;
+    text-align: left;
+}
+
+#buttons {
+    margin-bottom: 20px;
 }

@@ -10,13 +10,25 @@
     <h1>Daniel Perger</h1>
     <p>Ein Hobby Entwickler</p>
 	
-    <div id="content"></div>
-    <button onclick="zeigeLebenslauf()">Lebenslauf</button>
-	
-	<div id="extraButton" style="display:none;">
-		<button onclick="zeigeLebenslauf()">Schulische Ausbildung</button>
-		</div>
+<div id="buttons">
+    <button onclick="toggleText('Lebenslauf')">Lebenslauf</button>
+    <button onclick="toggleText('Schulbildung')">Schulische Ausbildung</button>
+</div>
 
+<div id="content">
+    <div id="Lebenslauf" class="hidden">
+        <h2>Lebenslauf</h2>
+        <p>Fd</p>
+    </div>
+
+    <div id="Schulbildung" class="hidden left-text">
+        <h2>Schulische Ausbildung</h2>
+        <p>09/2025 bis 03/2026: Schule für allgemeine Gesundheits- und Krankenpflege, Neunkirchen</p>
+        <p>09/2024 bis 01/2025: Schule für allgemeine Gesundheits- und Krankenpflege, Neunkirchen</p>
+        <p>09/2022 bis 06/2023: Handelsakademie, Neunkirchen</p>
+        <p>09/2018 bis 07/2022: Bilingual Junior High School, Wiener Neustadt</p>
+    </div>	
+	
     <script src="script.js"></script>
 </body>
 </html>
