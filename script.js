@@ -3,7 +3,6 @@ function zeigeLebenslauf() {
         <h2>Lebenslauf</h2>
     `;
 	document.getElementById("extraButton").style.display = "block";
-	
 	document.getElementById("extraButton").innerHTML = `
 		<button onclick="zeigeSchule()">
             Schulische Ausbildung anzeigen
