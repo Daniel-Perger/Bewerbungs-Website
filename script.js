@@ -6,3 +6,10 @@ function toggleText(id) {
         element.style.display = "block";
     }
 }
+
+function onceButtons(id) {
+	const element = document.getElementById(id);
+		if (element.style.display === "block") {
+			element.style.display = "none";
+		}
+}
