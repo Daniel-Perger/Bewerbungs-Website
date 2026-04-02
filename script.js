@@ -1,17 +1,14 @@
 function toggleText(id) {
-	const element = document.getElementById(id);
-	 if (element.style.display === "block") {
-		 element.style.display = "none";
-    } else {
-        element.style.display = "block";
-    }
+    const element = document.getElementById(id);
+    element.classList.toggle("hidden");
 }
 
-function onceButtons(id) {
-	const element = document.getElementById(id);
-		if (element.style.display === "block") {
-			element.style.display = "none";
-		} else {
-        element.style.display = "block";
-    }
+function showSection(id) {
+    const sections = document.querySelectorAll(".section");
+
+    sections.forEach(section => {
+        section.classList.add("hidden");
+    });
+
+    document.getElementById(id).classList.remove("hidden");
 }
