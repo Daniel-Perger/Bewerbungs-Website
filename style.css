@@ -23,6 +23,9 @@ button {
 
 #toggleButtons {
     margin-bottom: 20px;
+}
+
+#toggleButtons button {
     background-color: #8A1FFF
 }
 
